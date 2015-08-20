@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SettingsViewController" customModule="Todo_Widget" customModuleProvider="target">
+            <connections>
+                <outlet property="doneButton" destination="Pw9-3Z-pgI" id="tjQ-9c-Wg7"/>
+                <outlet property="limitLabel" destination="UQJ-Bh-t1C" id="E8d-3v-2GS"/>
+                <outlet property="limitStepper" destination="Y3A-DF-ygg" id="Xus-pj-9QP"/>
+                <outlet property="removeCompletedCheckbox" destination="gsu-TS-pCA" id="CHi-XP-7mp"/>
+                <outlet property="sortCheckbox" destination="tV3-M5-s09" id="VyQ-UM-SxM"/>
+                <outlet property="view" destination="c22-O7-iKe" id="OxP-QO-HaE"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="c22-O7-iKe">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="272"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <button ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tV3-M5-s09">
+                    <rect key="frame" x="18" y="221" width="226" height="18"/>
+                    <buttonCell key="cell" type="check" title="Move completed tasks to bottom" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="A6U-a2-xOE">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <button ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gsu-TS-pCA">
+                    <rect key="frame" x="18" y="195" width="217" height="18"/>
+                    <buttonCell key="cell" type="check" title="Remove tasks upon completion" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="a5C-mO-YT1">
+                        <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <button verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pw9-3Z-pgI">
+                    <rect key="frame" x="14" y="133" width="71" height="32"/>
+                    <buttonCell key="cell" type="push" title="Save" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="mdJ-ec-CjJ">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="afS-wZ-j0e">
+                    <rect key="frame" x="18" y="245" width="59" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Settings" allowsEditingTextAttributes="YES" id="pyc-0E-Xj1">
+                        <font key="font" metaFont="systemBold"/>
+                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+                <stepper horizontalHuggingPriority="750" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y3A-DF-ygg">
+                    <rect key="frame" x="17" y="166" width="19" height="27"/>
+                    <stepperCell key="cell" continuous="YES" alignment="left" maxValue="100" id="BpC-WA-99i"/>
+                </stepper>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UQJ-Bh-t1C">
+                    <rect key="frame" x="39" y="172" width="199" height="17"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Show at most 10 tasks at once " id="8Xf-xE-NUZ">
+                        <font key="font" metaFont="system"/>
+                        <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="UQJ-Bh-t1C" firstAttribute="centerY" secondItem="Y3A-DF-ygg" secondAttribute="centerY" constant="-0.5" id="3Ib-i3-DKC"/>
+                <constraint firstItem="Y3A-DF-ygg" firstAttribute="leading" secondItem="gsu-TS-pCA" secondAttribute="leading" id="7af-OW-3T2"/>
+                <constraint firstItem="UQJ-Bh-t1C" firstAttribute="leading" secondItem="Y3A-DF-ygg" secondAttribute="trailing" constant="6" id="CaX-2U-82s"/>
+                <constraint firstItem="UQJ-Bh-t1C" firstAttribute="top" secondItem="gsu-TS-pCA" secondAttribute="bottom" constant="12" id="Pni-jF-W5w"/>
+                <constraint firstAttribute="bottom" secondItem="Pw9-3Z-pgI" secondAttribute="bottom" constant="20" id="R7w-La-9DZ"/>
+                <constraint firstItem="Pw9-3Z-pgI" firstAttribute="top" secondItem="UQJ-Bh-t1C" secondAttribute="bottom" constant="15" id="eMa-2w-QeE"/>
+                <constraint firstItem="tV3-M5-s09" firstAttribute="top" secondItem="afS-wZ-j0e" secondAttribute="bottom" constant="12" id="ihd-8B-Rfy"/>
+                <constraint firstItem="afS-wZ-j0e" firstAttribute="top" secondItem="c22-O7-iKe" secondAttribute="top" constant="20" id="uCS-Oh-6t8"/>
+                <constraint firstItem="afS-wZ-j0e" firstAttribute="leading" secondItem="tV3-M5-s09" secondAttribute="leading" id="uem-3O-9V2"/>
+                <constraint firstItem="gsu-TS-pCA" firstAttribute="top" secondItem="tV3-M5-s09" secondAttribute="bottom" constant="12" id="xx0-al-bZ2"/>
+            </constraints>
+        </customView>
+    </objects>
+</document>

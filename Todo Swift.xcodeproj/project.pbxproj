@@ -10,15 +10,22 @@
 		5535FAD41B441B2000508DE4 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55527DE21B440730007853FD /* NotificationCenter.framework */; };
 		5535FADB1B441B2000508DE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5535FAD91B441B2000508DE4 /* InfoPlist.strings */; };
 		5535FADD1B441B2000508DE4 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535FADC1B441B2000508DE4 /* TodayViewController.swift */; };
-		5535FADF1B441B2000508DE4 /* ListRowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535FADE1B441B2000508DE4 /* ListRowViewController.swift */; };
+		5535FADF1B441B2000508DE4 /* TodoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5535FADE1B441B2000508DE4 /* TodoItemViewController.swift */; };
 		5535FAE11B441B2000508DE4 /* TodayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5535FAE01B441B2000508DE4 /* TodayViewController.xib */; };
-		5535FAE31B441B2000508DE4 /* ListRowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5535FAE21B441B2000508DE4 /* ListRowViewController.xib */; };
+		5535FAE31B441B2000508DE4 /* TodoItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5535FAE21B441B2000508DE4 /* TodoItemViewController.xib */; };
 		5535FAE61B441B2000508DE4 /* Todo Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5535FAD31B441B2000508DE4 /* Todo Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		55525B801B83907200322068 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55525B7F1B83907200322068 /* TodoItem.swift */; };
 		55527DC01B4406FD007853FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55527DBF1B4406FD007853FD /* AppDelegate.swift */; };
 		55527DC21B4406FD007853FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55527DC11B4406FD007853FD /* ViewController.swift */; };
 		55527DC41B4406FD007853FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55527DC31B4406FD007853FD /* Images.xcassets */; };
 		55527DC71B4406FD007853FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55527DC51B4406FD007853FD /* Main.storyboard */; };
 		55527DD31B4406FD007853FD /* Todo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55527DD21B4406FD007853FD /* Todo_SwiftTests.swift */; };
+		559226301B44BA810086BBF0 /* MenuItemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5592262F1B44BA810086BBF0 /* MenuItemViewController.xib */; };
+		559226321B44BA980086BBF0 /* MenuItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559226311B44BA980086BBF0 /* MenuItemViewController.swift */; };
+		559226341B44CC000086BBF0 /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 559226331B44CC000086BBF0 /* SettingsViewController.xib */; };
+		559226361B44D0D20086BBF0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559226351B44D0D20086BBF0 /* SettingsViewController.swift */; };
+		55C053F21B445C0A00F8186E /* EditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55C053F11B445C0A00F8186E /* EditViewController.xib */; };
+		55C053F41B445C6400F8186E /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55C053F31B445C6400F8186E /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,9 +65,10 @@
 		5535FAD81B441B2000508DE4 /* Todo_Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Todo_Widget.entitlements; sourceTree = "<group>"; };
 		5535FADA1B441B2000508DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5535FADC1B441B2000508DE4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		5535FADE1B441B2000508DE4 /* ListRowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowViewController.swift; sourceTree = "<group>"; };
-		5535FAE01B441B2000508DE4 /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayViewController.xib; sourceTree = "<group>"; };
-		5535FAE21B441B2000508DE4 /* ListRowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListRowViewController.xib; sourceTree = "<group>"; };
+		5535FADE1B441B2000508DE4 /* TodoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemViewController.swift; sourceTree = "<group>"; };
+		5535FAE01B441B2000508DE4 /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TodayViewController.xib; path = "Todo Widget/TodayViewController.xib"; sourceTree = SOURCE_ROOT; };
+		5535FAE21B441B2000508DE4 /* TodoItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TodoItemViewController.xib; path = "Todo Widget/TodoItemViewController.xib"; sourceTree = SOURCE_ROOT; };
+		55525B7F1B83907200322068 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		55527DBA1B4406FD007853FD /* Todo Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55527DBE1B4406FD007853FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55527DBF1B4406FD007853FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +79,12 @@
 		55527DD11B4406FD007853FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55527DD21B4406FD007853FD /* Todo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_SwiftTests.swift; sourceTree = "<group>"; };
 		55527DE21B440730007853FD /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		5592262F1B44BA810086BBF0 /* MenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuItemViewController.xib; path = "Todo Widget/MenuItemViewController.xib"; sourceTree = SOURCE_ROOT; };
+		559226311B44BA980086BBF0 /* MenuItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
+		559226331B44CC000086BBF0 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = "Todo Widget/SettingsViewController.xib"; sourceTree = SOURCE_ROOT; };
+		559226351B44D0D20086BBF0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		55C053F11B445C0A00F8186E /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditViewController.xib; path = "Todo Widget/EditViewController.xib"; sourceTree = SOURCE_ROOT; };
+		55C053F31B445C6400F8186E /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,9 +117,16 @@
 			isa = PBXGroup;
 			children = (
 				5535FADC1B441B2000508DE4 /* TodayViewController.swift */,
-				5535FADE1B441B2000508DE4 /* ListRowViewController.swift */,
+				55525B7F1B83907200322068 /* TodoItem.swift */,
+				5535FADE1B441B2000508DE4 /* TodoItemViewController.swift */,
+				55C053F31B445C6400F8186E /* EditViewController.swift */,
+				559226311B44BA980086BBF0 /* MenuItemViewController.swift */,
+				559226351B44D0D20086BBF0 /* SettingsViewController.swift */,
+				559226331B44CC000086BBF0 /* SettingsViewController.xib */,
+				5592262F1B44BA810086BBF0 /* MenuItemViewController.xib */,
+				55C053F11B445C0A00F8186E /* EditViewController.xib */,
+				5535FAE21B441B2000508DE4 /* TodoItemViewController.xib */,
 				5535FAE01B441B2000508DE4 /* TodayViewController.xib */,
-				5535FAE21B441B2000508DE4 /* ListRowViewController.xib */,
 				5535FAD61B441B2000508DE4 /* Supporting Files */,
 			);
 			path = "Todo Widget";
@@ -290,7 +311,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5535FAE31B441B2000508DE4 /* ListRowViewController.xib in Resources */,
+				559226301B44BA810086BBF0 /* MenuItemViewController.xib in Resources */,
+				559226341B44CC000086BBF0 /* SettingsViewController.xib in Resources */,
+				55C053F21B445C0A00F8186E /* EditViewController.xib in Resources */,
+				5535FAE31B441B2000508DE4 /* TodoItemViewController.xib in Resources */,
 				5535FAE11B441B2000508DE4 /* TodayViewController.xib in Resources */,
 				5535FADB1B441B2000508DE4 /* InfoPlist.strings in Resources */,
 			);
@@ -319,8 +343,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559226321B44BA980086BBF0 /* MenuItemViewController.swift in Sources */,
 				5535FADD1B441B2000508DE4 /* TodayViewController.swift in Sources */,
-				5535FADF1B441B2000508DE4 /* ListRowViewController.swift in Sources */,
+				55C053F41B445C6400F8186E /* EditViewController.swift in Sources */,
+				559226361B44D0D20086BBF0 /* SettingsViewController.swift in Sources */,
+				55525B801B83907200322068 /* TodoItem.swift in Sources */,
+				5535FADF1B441B2000508DE4 /* TodoItemViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
