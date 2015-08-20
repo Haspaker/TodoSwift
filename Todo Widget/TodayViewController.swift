@@ -60,6 +60,10 @@ class TodayViewController: NSViewController, NCWidgetProviding, NCWidgetListView
             self.settings["removeCompleted"] = sortTasksSetting
         }
         
+        if let taskLimit = defaults.integerForKey("taskLimit") as Int? {
+            self.settings["taskLimit"] = taskLimit
+        }
+        
     }
     
     func initListViewControllerContents() {
