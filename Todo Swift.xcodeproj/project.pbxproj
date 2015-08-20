@@ -66,8 +66,8 @@
 		5535FADA1B441B2000508DE4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5535FADC1B441B2000508DE4 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		5535FADE1B441B2000508DE4 /* TodoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItemViewController.swift; sourceTree = "<group>"; };
-		5535FAE01B441B2000508DE4 /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TodayViewController.xib; path = "Todo Widget/TodayViewController.xib"; sourceTree = SOURCE_ROOT; };
-		5535FAE21B441B2000508DE4 /* TodoItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TodoItemViewController.xib; path = "Todo Widget/TodoItemViewController.xib"; sourceTree = SOURCE_ROOT; };
+		5535FAE01B441B2000508DE4 /* TodayViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TodayViewController.xib; path = "/Users/haspaker/Projects/XCode/Todo Swift/Todo Widget/TodayViewController.xib"; sourceTree = "<absolute>"; };
+		5535FAE21B441B2000508DE4 /* TodoItemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TodoItemViewController.xib; path = "/Users/haspaker/Projects/XCode/Todo Swift/Todo Widget/TodoItemViewController.xib"; sourceTree = "<absolute>"; };
 		55525B7F1B83907200322068 /* TodoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		55527DBA1B4406FD007853FD /* Todo Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Todo Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		55527DBE1B4406FD007853FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,11 +79,11 @@
 		55527DD11B4406FD007853FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55527DD21B4406FD007853FD /* Todo_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo_SwiftTests.swift; sourceTree = "<group>"; };
 		55527DE21B440730007853FD /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		5592262F1B44BA810086BBF0 /* MenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuItemViewController.xib; path = "Todo Widget/MenuItemViewController.xib"; sourceTree = SOURCE_ROOT; };
+		5592262F1B44BA810086BBF0 /* MenuItemViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MenuItemViewController.xib; path = "/Users/haspaker/Projects/XCode/Todo Swift/Todo Widget/MenuItemViewController.xib"; sourceTree = "<absolute>"; };
 		559226311B44BA980086BBF0 /* MenuItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemViewController.swift; sourceTree = "<group>"; };
-		559226331B44CC000086BBF0 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = "Todo Widget/SettingsViewController.xib"; sourceTree = SOURCE_ROOT; };
+		559226331B44CC000086BBF0 /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SettingsViewController.xib; path = "/Users/haspaker/Projects/XCode/Todo Swift/Todo Widget/SettingsViewController.xib"; sourceTree = "<absolute>"; };
 		559226351B44D0D20086BBF0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
-		55C053F11B445C0A00F8186E /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditViewController.xib; path = "Todo Widget/EditViewController.xib"; sourceTree = SOURCE_ROOT; };
+		55C053F11B445C0A00F8186E /* EditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditViewController.xib; path = "/Users/haspaker/Projects/XCode/Todo Swift/Todo Widget/EditViewController.xib"; sourceTree = "<absolute>"; };
 		55C053F31B445C6400F8186E /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
