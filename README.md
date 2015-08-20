@@ -14,6 +14,6 @@ If the binary for some reason does not work, try building it from source via XCo
 
 ## Downloads
 
-Version | Binary
+Target | Binary
 --------|--------
 OSX 10.10 Yosemite | [Todo Widget.zip](https://github.com/Haspaker/Todo-Swift/releases/download/1.0/Todo.Widget.zip)
